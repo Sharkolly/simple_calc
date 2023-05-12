@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="sass.css" />
+  </head>
+  <body>
+    <div class="center">
+      <div class="normal">
+        <div class="header">
+          <h1>Simple Calculator</h1>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="on"
+              viewBox="0 0 576 512"
+            >
+              <path
+                d="M192 352C138.1 352 96 309 96 256C96 202.1 138.1 160 192 160C245 160 288 202.1 288 256C288 309 245 352 192 352zM384 448H192C85.96 448 0 362 0 256C0 149.1 85.96 64 192 64H384C490 64 576 149.1 576 256C576 362 490 448 384 448zM384 128H192C121.3 128 64 185.3 64 256C64 326.7 121.3 384 192 384H384C454.7 384 512 326.7 512 256C512 185.3 454.7 128 384 128z"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="off"
+              viewBox="0 0 576 512"
+            >
+              <path
+                class="path"
+                d="M384 64C490 64 576 149.1 576 256C576 362 490 448 384 448H192C85.96 448 0 362 0 256C0 149.1 85.96 64 192 64H384zM384 352C437 352 480 309 480 256C480 202.1 437 160 384 160C330.1 160 288 202.1 288 256C288 309 330.1 352 384 352z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="numbers">
+          <input type="number" name="" class="firstNum" id="" />
+          <input type="number" name="" class="secNum" id="" />
+        </div>
+
+        <div class="sign">
+          <button class="add">Add</button>
+          <button class="multiply">Multiply</button>
+          <button class="subtract">Subtract</button>
+          <button class="divide">Divide</button>
+        </div>
+
+        <div class="answer">
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="sass.js"></script>
+  </body>
+</html>

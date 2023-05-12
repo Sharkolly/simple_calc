@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  color: black;
+  max-width: 800px;
+  width: 90%;
+  margin-inline: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body div.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1em;
+}
+
+body div.center div.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 1em;
+}
+
+body div.center div.header h1 {
+  font-size: 30px;
+}
+
+body div.center div.header div {
+  margin-left: 1em;
+}
+
+body div.center div.header div svg {
+  width: 35px;
+  height: 35px;
+  margin-top: 20px;
+}
+
+body div.center div.header div svg.off {
+  display: none;
+}
+
+body div.center div.numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  gap: 1em;
+  margin-top: 5em;
+}
+
+body div.center div.numbers input {
+  width: 27%;
+  height: 20px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+  font-size: 1.5em;
+  background: transparent;
+  text-align: center;
+}
+
+body div.center div.sign {
+  margin-top: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1em;
+}
+
+body div.center div.sign button {
+  background: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: .6em 1.3em;
+  font-size: 1.3em;
+  -webkit-transition: .15s ease;
+  transition: .15s ease;
+  font-weight: bold;
+}
+
+body div.center div.sign button:hover {
+  opacity: .6;
+}
+
+body div.center div.sign button:active {
+  color: black;
+  background: white;
+  border: 1px solid black;
+  scale: 0.977;
+}
+
+body div.center div.answer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5em;
+}
+
+body div.center div.answer p {
+  font-weight: bold;
+  font-size: 26px;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=sass.css.map */
